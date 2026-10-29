@@ -1,0 +1,29 @@
+{
+  "logistic_regression": {
+    "model_name": "Logistic Regression (Balanced & Calibrated)",
+    "accuracy": 0.2215,
+    "precision": 0.2136,
+    "recall": 0.9836,
+    "f1_score": 0.351,
+    "roc_auc": 0.5258,
+    "type": "Linear Baseline (Calibrated)"
+  },
+  "mlp_classifier": {
+    "model_name": "Multi-Layer Perceptron (Neural Network)",
+    "accuracy": 0.634,
+    "precision": 0.2324,
+    "recall": 0.3084,
+    "f1_score": 0.2651,
+    "roc_auc": 0.5151,
+    "type": "Neural Network"
+  },
+  "random_forest": {
+    "model_name": "Random Forest (Calibrated)",
+    "accuracy": 0.222,
+    "precision": 0.2149,
+    "recall": 0.993,
+    "f1_score": 0.3533,
+    "roc_auc": 0.5275,
+    "type": "Ensemble Production Model (Calibrated)"
+  }
+}
